@@ -1,0 +1,70 @@
+print = escreva 
+
+para os resultados dos calculos aparecerem na tela usar print(7+4)
+
+se eu tenho uma mensagem e outra mensagem para juntar é necessario colocar print('7'+'4') 
+e é possivel usar a , tbm print ('ola',4)
+
+
+o objeto é mais que uma variavel 
+toda variavel é um objeto pro python
+
+= recebe 
++ so funciona se for para junção de mensagens
+
+
+
+exemplos: 
+nome ='felipe'
+idade =17
+peso =60.5
+
+print(nome,idade,peso)
+
+
+
+nome=input('Qual é seu nome?')
+idade = input('Quantos anos você tem?')
+peso = input('Quanto você pesa?')
+
+print(nome,idade,peso)
+------------------------------------------------------
+Desafio 1:
+
+nome=input('Digite seu nome?')
+
+print('Seja bem vindo',nome) correto!!
+
+-------------------------------------------------------
+
+Desafio 2 
+
+dia=input('digite o dia do nascimento')
+mes=input('Digite o mes de nascimento')
+ano=input('Digite o ano de nascimento')
+
+print('Você nasceu no dia',dia,mes,ano)
+
+--------------------------------------------------------
+
+Desafio 3 
+
+n1=input('Digite um numero')
+n1=int(n1)
+n2=input('Digite o segundo numero')
+n2=int(n2)
+
+print(n1+n2)
+
+--------------------------------------------------------
+
+Estrutura de decisão
+
+x = int (input('quantos anos você tem?'))
+
+if(x<30):
+ print('Você é jovem')
+else:
+ print('Você esta idoso')
+
+ esse é um exemplo de Estrutura de decisão usando if e else
