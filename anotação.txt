@@ -1,0 +1,47 @@
+Tipos primitivos e saida de dados:
+
+int: inteiros
+float: numeros reais ou flutuantes
+bool: valores logicos ou booleanos
+str: strings e caracteres
+
+tem tambem a nova sintaxe de print
+
+print('A soma vale {}'.format(s))
+
+juntar uma string na outra é cocatenação
+
+--------------------------------------------
+mini desafio: 
+print('A soma entre',n1, 'e' ,n2, 'Vale',s) - o resultado aparecera assim
+A soma entre 6 e 2 Vale 8
+
+com o novo metodo de print: 
+
+print('A soma entre {} e {} vale {}'.format(n1,n2,s))
+o resultado saira da mesma forma so que melhor visualmente
+
+-----------------------------------------------------
+Tambem tem a propriedade in ele verifica oque foi digitado e informa 
+se é numero, letra, texto, spaço e etc como fiz no mini desafio
+
+------------------------------------------------------
+exercicio 04
+algo = input('Digite algo do teclado:')
+print('o tipo primitivo desse valor é', type(algo)) -- fala a classe do elemento que eu digitei 
+print('é alpha?', algo.isalpha())
+print('é numero?',  algo.isalnum())
+print('é espaço',algo.isspace())
+print( 'é titulo?',algo.istitle())
+print( 'é escrito?', algo.isalpha())
+
+e aparece assim para o usuario: 
+
+Digite algo do teclado:ola
+o tipo primitivo desse valor é <class 'str'>
+é alpha? True
+é numero? True
+é espaço False
+é titulo? False
+é escrito? True
+

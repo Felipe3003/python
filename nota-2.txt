@@ -1,0 +1,31 @@
+operadores aritmeticos: 
+
++ = adição
+- = subtração
+* = multiplicação
+/ = divisão
+** = potencia
+// = divisão inteira
+% = resto de divisão
+
+
+ordem de precedencia dos operadores
+
+1 = sao os parenteses ()
+2 = potencia
+3 = multiplicação, divisão, divisão inteira, resto de divisão
+4 = adição e subtração
+
+-------------------------------------------------------
+
+o print ele tem uma função de alinhamento
+
+print('prazer em te conhecer {:20} !'.format(nome)) - aqui ele vai escrever em 20 caracteres
+
+print('prazer em te conhecer {:<20} !'.format(nome)) - aqui ele vai se alinhar a esquerda
+
+print('prazer em te conhecer {:>20} !'.format(nome)) - aqui vai alinhar a direita
+
+print('prazer em te conhecer {:^20} !'.format(nome)) - aqui vai alinhar ao centro
+
+print('o resultado é {:.3f}') - aqui ele vai pegar somente 3 casas decimais para os resultados n sairem com numeros gigantes
