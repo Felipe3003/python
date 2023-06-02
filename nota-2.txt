@@ -29,3 +29,28 @@ print('prazer em te conhecer {:>20} !'.format(nome)) - aqui vai alinhar a direit
 print('prazer em te conhecer {:^20} !'.format(nome)) - aqui vai alinhar ao centro
 
 print('o resultado é {:.3f}') - aqui ele vai pegar somente 3 casas decimais para os resultados n sairem com numeros gigantes
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+Aula sobre Modulos: 
+
+para importar bibliotecas
+
+exemplo: se eu quiser importar uma bebida posso colocar nas primeiras linhas 
+
+import bebida 
+mais se eu quiser importar somente um posso colocar assim: 
+
+from doce import pudim: assim ira importar somente o doce que eu quero
+
+---------------------------------------------------------------------------------------------------------------------
+
+Na bibliotecas math temos algumas funções:
+
+ceil: faz um arredodamento pra cima
+floor: faz um arredodamento pra baixo
+trunc: a função truncate ela vai eliminar da virgula para frente sem arredodamento
+pow: pow de potencia funciona igual os dois ** 
+sqrt: para calcular raiz quadrada
+factorial: para fazer calculo fatorial
